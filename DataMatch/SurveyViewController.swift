@@ -10,17 +10,29 @@ import UIKit
 
 class SurveyViewController: UIViewController {
 
+    var answers: [Int] = []
+    
     @IBOutlet weak var Question: UILabel!
     
     @IBAction func Answer_A(_ sender: Any) {
+        answers.append(0);
+        // Code to transition to next question and answers
     }
     @IBAction func Answer_B(_ sender: Any) {
+        answers.append(1);
+        // ""
     }
     @IBAction func Answer_C(_ sender: Any) {
+        answers.append(2);
+        // ""
     }
     @IBAction func Answer_D(_ sender: Any) {
+        answers.append(3);
+        // ""
     }
     @IBAction func Answer_E(_ sender: Any) {
+        answers.append(4);
+        // ""
     }
     
     
